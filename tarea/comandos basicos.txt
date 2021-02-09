@@ -1,10 +1,19 @@
 git( comandos básicos)
 
-ls--> permite saber lo que tenemos en nuestra pc
+ls--> permite saber lo que tenemos en nuestra pc( directorios existentes)
+pwd--> saber en que directorio estamos
 cd <documents>--> entrar a la carpeta documents
 mkdir <clase2 >--> creamos la carpeta clasae2
+git branch ----> ramas existentes
+git branch <nombre rama>---> crea una rama
+git log --oneline --decorate --all --graph---> resumen de las acciones
 
+git checkout <nombre de la rama>--> ir a la rama deseada
+git commit -m <rama_practica...mensaje del commit>--->commit de la rama con mensaje
 
+git config --global user.name "nuestro nombre"
+git config --global user.email "nuestro email"
+git config --global --list
 
 1. ¿Cuál es la diferencia entre algoritmo y programa?
 
